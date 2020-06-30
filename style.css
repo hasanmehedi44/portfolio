@@ -8,6 +8,11 @@ h1 {
     font-family: 'Pangolin', cursive;
 }
 
+h2 {
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+
 .name-highlight {
     color: orange;
 }
@@ -33,11 +38,56 @@ h1 {
 }
 section {
     height: 500px;
+    padding-bottom: 300px;
 }
 
 .link-button {
     text-decoration: none;
     padding: 10px 20px;
     background-image: linear-gradient(45deg, orange , red);
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+}
+
+.download-resume {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, rgba(207, 211, 153, 0.849) , rgb(122, 48, 48));
+    margin-top: 30px;
+    margin: 20px;
+}
+
+.second-banner {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    float: right;
+    background-position: right;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+    height: 80%;
+}
+
+
+#experiences-area {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightSalmon , tomato); 
+    border-image-slice: 1;
+}
+
+
+#baby-web {
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
